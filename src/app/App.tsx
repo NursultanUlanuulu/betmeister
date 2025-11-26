@@ -1,3 +1,4 @@
+import Footer from '../components/Footer'
 import { Header } from '../components/Header'
 import Home from '../page/Home'
 
@@ -6,7 +7,7 @@ export default function App() {
 		<div>
 			<Header />
 			<Home />
-			{/* <Footer/> */}
+			<Footer/>
 		</div>
 	)
 }

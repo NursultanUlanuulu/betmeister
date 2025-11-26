@@ -1,11 +1,22 @@
-// import React from 'react'
 
-export default function Footer() {
-	return (
-		<div className='bg-[#7A7A7A]'>
-			<div className='w-[1200px] m-auto text-center'>
-			<p className='text-white py-5 text-500 text-[56px]'>Přistupuj ke sportu jako k trhu. Predikuj, analyzuj, vydělávej.</p>			
-			</div>
-		</div>
-	)
+const Footer = () => {
+  return (
+    <footer className="bg-white p-10 h-60 pt-20  ">
+      
+   
+
+      <hr className="border-gray-200 mt-4 mb-6" />
+
+      <div className="text-xs text-gray-500 pl-80">
+        <p className="mb-2">
+          Copyright: © 2025 betmeister.eu. Všechna práva vyhrazena.
+        </p>
+        <p className="mt-4">
+          Upozornění: Tipy nejsou investičním doporučením. Sázení je rizikové a může vést ke ztrátě vkladu. Služba je určena pouze pro osoby starší 18 let.
+        </p>
+      </div>
+    </footer>
+  );
 }
+
+export default Footer;
