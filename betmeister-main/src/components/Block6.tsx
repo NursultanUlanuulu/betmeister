@@ -4,7 +4,6 @@ const Block6 = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    // Автовоспроизведение видео с обработкой ошибок
     if (videoRef.current) {
       videoRef.current.play().catch(e => console.log("Автовоспроизведение заблокировано:", e));
     }
