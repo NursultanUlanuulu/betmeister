@@ -74,7 +74,6 @@ const Block3 = () => {
             {/* Неоново-фиолетовая верхняя часть при ховере */}
             <div className="absolute inset-0 bg-gradient-to-b from-purple-500/0 via-purple-500/0 to-transparent group-hover:from-purple-500/10 group-hover:via-purple-500/5 transition-all duration-500" />
             
-            {/* Светящаяся верхняя граница */}
             <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-purple-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:shadow-[0_0_10px_rgba(168,85,247,0.8)]" />
             
             <div className="relative flex flex-col items-center text-center">
